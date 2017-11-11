@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/drawable-hdpi/logo.png"
+    }
+]
