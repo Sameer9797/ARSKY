@@ -10,6 +10,9 @@ countries.
 
 package com.vuforia.samples.VuforiaSamples.app.UserDefinedTargets;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Vector;
 
@@ -18,8 +21,14 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -170,8 +179,55 @@ public class UserDefinedTargets extends Activity implements
     // for rendering.
     private void loadTextures()
     {
-        mTextures.add(Texture.loadTextureFromApk("board3.png",
-            getAssets()));
+
+        Bitmap loadedbMap = BitmapFactory.decodeResource(getResources(), R.drawable.board3);
+        Bitmap bMap = loadedbMap.copy(Bitmap.Config.ARGB_8888, true);
+        Canvas c = new Canvas(bMap);
+        Paint p = new Paint();
+
+
+        p.setTextSize(100);
+        p.setColor(getResources().getColor(android.R.color.holo_orange_light));
+
+        c.save();
+
+
+        c.rotate(-90,200, 1600);
+        c.drawText("12:10  New York  CLMEME  £213 ",0, 1700, p);
+
+        c.restore();
+
+
+//        FileOutputStream out = null;
+//        try {
+//            out = new FileOutputStream(Environment.getExternalStorageDirectory().getAbsolutePath()+"/postcard");
+//
+//            bMap.compress(Bitmap.CompressFormat.PNG, 100, out); // bmp is your Bitmap instance
+//            // PNG is a lossless format, the compression factor (100) is ignored
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                if (out != null) {
+//                    out.close();
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+
+        int[] data = new int[bMap.getWidth() * bMap.getHeight()];
+        bMap.getPixels(data, 0, bMap.getWidth(), 0, 0,
+                bMap.getWidth(), bMap.getHeight());
+
+
+//        mTextures.add(Texture.loadTextureFromApk("board3.png",
+//            getAssets()));
+// File file = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/postcard.png");
+
+        mTextures.add(
+                Texture.loadTextureFromIntBuffer(data, bMap.getWidth(),
+                        bMap.getHeight()));;
     }
     
     

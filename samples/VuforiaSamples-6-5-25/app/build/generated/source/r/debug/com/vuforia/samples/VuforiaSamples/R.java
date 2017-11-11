@@ -38,25 +38,27 @@ public final class R {
     public static final class drawable {
         public static final int bg00=0x7f020000;
         public static final int bg70=0x7f020001;
-        public static final int button_close_normal=0x7f020002;
-        public static final int button_close_pressed=0x7f020003;
-        public static final int camera_button_background=0x7f020004;
-        public static final int card_info=0x7f020005;
-        public static final int close_button_background=0x7f020006;
-        public static final int icon=0x7f020007;
-        public static final int icon_01=0x7f020008;
-        public static final int icon_02=0x7f020009;
-        public static final int icon_03=0x7f02000a;
-        public static final int icon_camera_normal=0x7f02000b;
-        public static final int icon_camera_pressed=0x7f02000c;
-        public static final int icon_plus_normal=0x7f02000d;
-        public static final int icon_plus_pressed=0x7f02000e;
-        public static final int logo=0x7f02000f;
-        public static final int new_target_button_background=0x7f020010;
-        public static final int reticle=0x7f020011;
-        public static final int round_bg=0x7f020012;
-        public static final int scanline=0x7f020013;
-        public static final int vuforia_splash=0x7f020014;
+        public static final int board2=0x7f020002;
+        public static final int board3=0x7f020003;
+        public static final int button_close_normal=0x7f020004;
+        public static final int button_close_pressed=0x7f020005;
+        public static final int camera_button_background=0x7f020006;
+        public static final int card_info=0x7f020007;
+        public static final int close_button_background=0x7f020008;
+        public static final int icon=0x7f020009;
+        public static final int icon_01=0x7f02000a;
+        public static final int icon_02=0x7f02000b;
+        public static final int icon_03=0x7f02000c;
+        public static final int icon_camera_normal=0x7f02000d;
+        public static final int icon_camera_pressed=0x7f02000e;
+        public static final int icon_plus_normal=0x7f02000f;
+        public static final int icon_plus_pressed=0x7f020010;
+        public static final int logo=0x7f020011;
+        public static final int new_target_button_background=0x7f020012;
+        public static final int reticle=0x7f020013;
+        public static final int round_bg=0x7f020014;
+        public static final int scanline=0x7f020015;
+        public static final int vuforia_splash=0x7f020016;
     }
     public static final class id {
         public static final int about_html_text=0x7f090002;

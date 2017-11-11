@@ -1,4 +1,4 @@
-#Sat Nov 11 16:38:23 GMT 2017
+#Sat Nov 11 21:03:37 GMT 2017
 base.0=/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_009cafe88d74d44675744806b4d9048ee4e283dc
 renamed.1=classes.dex
 renamed.0=classes2.dex
