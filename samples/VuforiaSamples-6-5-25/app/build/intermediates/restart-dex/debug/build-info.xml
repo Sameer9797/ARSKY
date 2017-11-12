@@ -2,49 +2,76 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1510478045207"
+    timestamp="1510483750549"
     token="2301764426912831171"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="985" />
+        duration="1261" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="38" />
+        duration="88" />
     <task
         name="verifier"
-        duration="5" />
+        duration="17" />
 
     <artifact
-        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/outputs/apk/VuforiaSamples-6-5-25-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510473447658"
+        timestamp="1510483750549"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -65,33 +92,14 @@
             location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/outputs/apk/VuforiaSamples-6-5-25-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1510477613053"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/outputs/apk/VuforiaSamples-6-5-25-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1510478045207"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

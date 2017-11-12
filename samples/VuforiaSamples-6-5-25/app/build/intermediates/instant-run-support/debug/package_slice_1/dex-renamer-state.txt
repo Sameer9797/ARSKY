@@ -1,4 +1,4 @@
-#Sun Nov 12 05:18:23 GMT 2017
+#Sun Nov 12 09:23:45 GMT 2017
 base.0=/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1
 renamed.0=classes.dex
 file.0=/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex

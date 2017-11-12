@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Vuforia</string>
-    <string name="app_description">Vuforia Sample Applications</string>
+    <string name="app_name">Table 36</string>
+    <string name="app_description">Table 36 skyscanner</string>
     
     <string name="button_start">Start</string>
     <string name="activities_list_title_string">Vuforia Samples</string>

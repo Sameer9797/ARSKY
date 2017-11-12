@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v11/notification_media_action.xml"
+    }
+]

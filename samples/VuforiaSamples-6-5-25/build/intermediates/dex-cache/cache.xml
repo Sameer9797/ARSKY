@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2a7f2a721726d06c3d3f034f7ca5a840b069f9ad">
+        <dex dex="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_68597a158d411fae8e212ec136ff45241ebed8d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Development/Android/vuforia-sdk-android-6-5-25/build/java/vuforia/Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="283d6ac2f86c238de775f6d1f039aecdd6a5fa67">
+        <dex dex="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/2/Vuforia_a61215d57ccf70eda4896a059a3156d6ea7dafa5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_009cafe88d74d44675744806b4d9048ee4e283dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sameer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.2_3f9a844ff004f78660d82d5d86d1bbda040bee0d/classes.dex" />
+    </item>
+
+</items>

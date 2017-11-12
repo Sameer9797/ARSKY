@@ -51,8 +51,8 @@
     <string name="UPDATE_ERROR_UPDATE_SDK_TITLE">Unsupported Version</string>
     <string name="activities_list_empty">No activities</string>
     <string name="activities_list_title_string">Vuforia Samples</string>
-    <string name="app_description">Vuforia Sample Applications</string>
-    <string name="app_name">Vuforia</string>
+    <string name="app_description">Table 36 skyscanner</string>
+    <string name="app_name">Table 36</string>
     <string name="button_OK">OK</string>
     <string name="button_start">Start</string>
     <string name="content_desc_camera_button">Camera Button</string>

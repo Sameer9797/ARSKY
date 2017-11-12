@@ -452,6 +452,9 @@ public class TextReco extends Activity implements SampleApplicationControl,
                         {
                             break;
                         }
+
+                        Log.d("word",word.toString());
+
                         tv = new TextView(TextReco.this);
                         tv.setText(word.text);
                         RelativeLayout.LayoutParams txtParams = new RelativeLayout.LayoutParams(

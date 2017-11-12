@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
