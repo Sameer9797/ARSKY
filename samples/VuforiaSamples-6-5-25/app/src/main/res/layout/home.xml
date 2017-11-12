@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+            >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/plane"
+            android:paddingTop="40dp"
+
+            >
+
+
+        </ImageView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:id="@+id/textView"
+            android:textSize="32dp"
+
+            android:layout_below="@+id/imageView"
+            android:layout_alignLeft="@+id/viewPostButton"
+            android:layout_alignStart="@+id/viewPostButton"
+            android:layout_marginTop="21dp" />
+
+
+        <Button
+            android:id="@+id/viewPostButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View PostCards"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            />
+
+    </RelativeLayout>

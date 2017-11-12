@@ -1,59 +1,103 @@
 [
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_udt.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_udt.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_layer.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_layer.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/card.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/card.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_layer.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_layer.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_reticle.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_reticle.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_textreco.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_textreco.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_group.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group_radio_button.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_group_radio_button.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_textreco.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_textreco.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/home.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/home.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_reticle.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_reticle.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_group.xml"
     },
     {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group_divider.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_group_divider.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_action.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/splash_screen.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/splash_screen.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/splash_screen.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/splash_screen.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group_divider.xml",
@@ -68,12 +112,8 @@
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/about_screen.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/activities_list_text_view.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list_text_view.xml"
-    },
-    {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_with_scanline.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_with_scanline.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group_radio_button.xml",
@@ -84,8 +124,20 @@
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/card.xml"
     },
     {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/activities_list_text_view.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list_text_view.xml"
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay.xml",
@@ -96,16 +148,128 @@
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list.xml"
     },
     {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_with_scanline.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_with_scanline.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_udt.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_udt.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_layer.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_layer.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/card.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/card.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_reticle.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_reticle.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/sample_app_menu_group.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/sample_app_menu_group.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_reticle.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_reticle.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_textreco.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_textreco.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/splash_screen.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/activities_list_text_view.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list_text_view.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_with_scanline.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_with_scanline.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/activities_list_text_view.xml",
+        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list_text_view.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/activities_list.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/activities_list.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/about_screen.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/layout/about_screen.xml"
-    },
-    {
-        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay_with_scanline.xml",
-        "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/layout/camera_overlay_with_scanline.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/layout/camera_overlay.xml",

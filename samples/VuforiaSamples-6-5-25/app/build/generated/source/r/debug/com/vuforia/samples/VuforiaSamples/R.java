@@ -16,13 +16,14 @@ public final class R {
     }
     public static final class color {
         public static final int black=0x7f070000;
-        public static final int gray=0x7f070001;
-        public static final int light_gray=0x7f070002;
-        public static final int overlay_bottom_bar_background=0x7f070003;
-        public static final int overlay_bottom_bar_separators=0x7f070004;
-        public static final int semi_transparent_black=0x7f070005;
-        public static final int transparent=0x7f070006;
-        public static final int white=0x7f070007;
+        public static final int colorPrimary=0x7f070001;
+        public static final int gray=0x7f070002;
+        public static final int light_gray=0x7f070003;
+        public static final int overlay_bottom_bar_background=0x7f070004;
+        public static final int overlay_bottom_bar_separators=0x7f070005;
+        public static final int semi_transparent_black=0x7f070006;
+        public static final int transparent=0x7f070007;
+        public static final int white=0x7f070008;
     }
     public static final class dimen {
         public static final int menu_activities_list_padding_left=0x7f050002;
@@ -40,25 +41,30 @@ public final class R {
         public static final int bg70=0x7f020001;
         public static final int board2=0x7f020002;
         public static final int board3=0x7f020003;
-        public static final int button_close_normal=0x7f020004;
-        public static final int button_close_pressed=0x7f020005;
-        public static final int camera_button_background=0x7f020006;
-        public static final int card_info=0x7f020007;
-        public static final int close_button_background=0x7f020008;
-        public static final int icon=0x7f020009;
-        public static final int icon_01=0x7f02000a;
-        public static final int icon_02=0x7f02000b;
-        public static final int icon_03=0x7f02000c;
-        public static final int icon_camera_normal=0x7f02000d;
-        public static final int icon_camera_pressed=0x7f02000e;
-        public static final int icon_plus_normal=0x7f02000f;
-        public static final int icon_plus_pressed=0x7f020010;
-        public static final int logo=0x7f020011;
-        public static final int new_target_button_background=0x7f020012;
-        public static final int reticle=0x7f020013;
-        public static final int round_bg=0x7f020014;
-        public static final int scanline=0x7f020015;
-        public static final int vuforia_splash=0x7f020016;
+        public static final int board4=0x7f020004;
+        public static final int board5=0x7f020005;
+        public static final int board6=0x7f020006;
+        public static final int board9=0x7f020007;
+        public static final int button_close_normal=0x7f020008;
+        public static final int button_close_pressed=0x7f020009;
+        public static final int camera_button_background=0x7f02000a;
+        public static final int card_info=0x7f02000b;
+        public static final int close_button_background=0x7f02000c;
+        public static final int icon=0x7f02000d;
+        public static final int icon_01=0x7f02000e;
+        public static final int icon_02=0x7f02000f;
+        public static final int icon_03=0x7f020010;
+        public static final int icon_camera_normal=0x7f020011;
+        public static final int icon_camera_pressed=0x7f020012;
+        public static final int icon_plus_normal=0x7f020013;
+        public static final int icon_plus_pressed=0x7f020014;
+        public static final int logo=0x7f020015;
+        public static final int new_target_button_background=0x7f020016;
+        public static final int plane=0x7f020017;
+        public static final int reticle=0x7f020018;
+        public static final int round_bg=0x7f020019;
+        public static final int scanline=0x7f02001a;
+        public static final int vuforia_splash=0x7f02001b;
     }
     public static final class id {
         public static final int about_html_text=0x7f090002;
@@ -70,23 +76,26 @@ public final class R {
         public static final int camera_button=0x7f09000f;
         public static final int camera_overlay_layout=0x7f090004;
         public static final int card_layout=0x7f090011;
+        public static final int imageView=0x7f090015;
         public static final int instance_image=0x7f090012;
         public static final int leftMargin=0x7f090009;
         public static final int loading_indicator=0x7f090005;
         public static final int loading_layout=0x7f09000d;
-        public static final int logo_image=0x7f09001a;
+        public static final int logo_image=0x7f09001d;
         public static final int loupe=0x7f09000a;
         public static final int loupeLayout=0x7f090008;
-        public static final int menu_group_title=0x7f090015;
-        public static final int menu_group_title_divider=0x7f090016;
+        public static final int menu_group_title=0x7f090018;
+        public static final int menu_group_title_divider=0x7f090019;
         public static final int rightMargin=0x7f09000b;
         public static final int scan_line=0x7f090010;
-        public static final int settings_menu=0x7f090017;
-        public static final int settings_menu_title=0x7f090018;
-        public static final int splash_image=0x7f090019;
+        public static final int settings_menu=0x7f09001a;
+        public static final int settings_menu_title=0x7f09001b;
+        public static final int splash_image=0x7f09001c;
+        public static final int textView=0x7f090016;
         public static final int text_type=0x7f090013;
         public static final int text_value=0x7f090014;
         public static final int topMargin=0x7f090007;
+        public static final int viewPostButton=0x7f090017;
         public static final int wordList=0x7f09000c;
     }
     public static final class layout {
@@ -99,11 +108,12 @@ public final class R {
         public static final int camera_overlay_udt=0x7f030006;
         public static final int camera_overlay_with_scanline=0x7f030007;
         public static final int card=0x7f030008;
-        public static final int sample_app_menu_group=0x7f030009;
-        public static final int sample_app_menu_group_divider=0x7f03000a;
-        public static final int sample_app_menu_group_radio_button=0x7f03000b;
-        public static final int sample_app_menu_layer=0x7f03000c;
-        public static final int splash_screen=0x7f03000d;
+        public static final int home=0x7f030009;
+        public static final int sample_app_menu_group=0x7f03000a;
+        public static final int sample_app_menu_group_divider=0x7f03000b;
+        public static final int sample_app_menu_group_radio_button=0x7f03000c;
+        public static final int sample_app_menu_layer=0x7f03000d;
+        public static final int splash_screen=0x7f03000e;
     }
     public static final class string {
         public static final int INIT_ERROR=0x7f080000;

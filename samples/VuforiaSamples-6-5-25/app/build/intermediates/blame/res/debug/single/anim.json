@@ -1,5 +1,25 @@
 [
     {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/bottom_down.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/anim/bottom_down.xml"
     },
@@ -8,8 +28,28 @@
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/src/main/res/anim/bottom_down.xml"
     },
     {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_fade_in.xml"
+    },
+    {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/bottom_up.xml",
         "source": "/Development/Android/vuforia-sdk-android-6-5-25/VuforiaSamples-6-5-25/app/src/main/res/anim/bottom_up.xml"
+    },
+    {
+        "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/sameer/.android/build-cache/f11eb3b4938ec91d5ed6938c3d0d702a5e7a6c1a/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Development/Android/vuforia-sdk-android-6-5-25/samples/VuforiaSamples-6-5-25/app/build/intermediates/res/merged/debug/anim/bottom_up.xml",

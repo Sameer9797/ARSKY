@@ -13,8 +13,13 @@ package com.vuforia.samples.VuforiaSamples.app.UserDefinedTargets;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Vector;
+import java.util.concurrent.ExecutionException;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -32,6 +37,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.util.Log;
+import android.util.StringBuilderPrinter;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -40,6 +46,7 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.RelativeLayout;
 
+import com.google.gson.Gson;
 import com.vuforia.CameraDevice;
 import com.vuforia.DataSet;
 import com.vuforia.ImageTargetBuilder;
@@ -53,12 +60,18 @@ import com.vuforia.samples.SampleApplication.SampleApplicationControl;
 import com.vuforia.samples.SampleApplication.SampleApplicationException;
 import com.vuforia.samples.SampleApplication.SampleApplicationSession;
 import com.vuforia.samples.SampleApplication.utils.LoadingDialogHandler;
+import com.vuforia.samples.SampleApplication.utils.NetworkUtils;
 import com.vuforia.samples.SampleApplication.utils.SampleApplicationGLView;
+import com.vuforia.samples.SampleApplication.utils.SkyScannerQuery;
 import com.vuforia.samples.SampleApplication.utils.Texture;
 import com.vuforia.samples.VuforiaSamples.R;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenu;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuGroup;
 import com.vuforia.samples.VuforiaSamples.ui.SampleAppMenu.SampleAppMenuInterface;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 // The main activity for the UserDefinedTargets sample.
@@ -106,8 +119,8 @@ public class UserDefinedTargets extends Activity implements
     private AlertDialog mErrorDialog;
     
     boolean mIsDroidDevice = false;
-    
-    
+
+    private JSONArray Alldata = new JSONArray();
     // Called when the activity first starts or needs to be recreated after
     // resuming the application or a configuration change.
     @Override
@@ -123,8 +136,16 @@ public class UserDefinedTargets extends Activity implements
         
         // Load any sample specific textures:
         mTextures = new Vector<Texture>();
-        loadTextures();
-        
+        try {
+            loadTextures();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
         mGestureDetector = new GestureDetector(this, new GestureListener());
         
         mIsDroidDevice = android.os.Build.MODEL.toLowerCase().startsWith(
@@ -177,10 +198,62 @@ public class UserDefinedTargets extends Activity implements
     
     // We want to load specific textures from the APK, which we will later use
     // for rendering.
-    private void loadTextures()
-    {
+    private void loadTextures() throws ExecutionException, InterruptedException, JSONException {
 
-        Bitmap loadedbMap = BitmapFactory.decodeResource(getResources(), R.drawable.board3);
+        URL skyScannerSearchUrl = NetworkUtils.buildUrl("FR/eur/en-US/uk/us/anytime/anytime");
+        String s = new SkyScannerQuery().execute(skyScannerSearchUrl).get();
+        Log.d("errere",s);
+        //turn response into string
+        JSONObject obj = new JSONObject(s);
+
+        //get flights
+       JSONArray quotesArray = obj.getJSONArray("Quotes");
+       JSONArray placesArray = obj.getJSONArray("Places");
+       JSONArray carriersArray = obj.getJSONArray("Carriers");
+
+
+        JSONArray Alldata = new JSONArray();
+        for (int i=0; i < 10; i++)
+        {
+
+            try {
+
+                JSONArray data = new JSONArray();
+                JSONObject quoteObject = quotesArray.getJSONObject(i);
+
+                // Pulling items from the array
+               // Log.d("oneObject",quoteObject.toString(4));
+                String price = quoteObject.getString("MinPrice");
+              //  Log.d("price",price);
+                JSONObject outBound = quoteObject.getJSONObject("OutboundLeg");
+               // Log.d("outbound",outBound.toString());
+                String depDate = outBound.getString("DepartureDate");
+               // Log.d("depDate",depDate);
+
+               // Log.d("quoteobject",depDate);
+
+               // data.put(new JSONObject().put("Price",price).put("Destination","San Jose").put("Depature Date",depDate));
+                //data.put(new JSONObject().put("Destination","San Jose"));
+               // data.put(depDate);
+
+                Alldata.put(new JSONObject().put("Price",price).put("Destination","San Jose").put("DepatureDate",depDate));
+
+                Log.d("where is sam" , data.toString(4));
+                Log.d("All the data" , Alldata.toString(4));
+                //Log.d("length",String.valueOf(Alldata.length()));
+
+            } catch (JSONException e) {
+                // Oops
+                e.printStackTrace();
+            }
+        }
+
+
+
+
+       // Log.d("ewe",obj.toString());
+
+        Bitmap loadedbMap = BitmapFactory.decodeResource(getResources(), R.drawable.board9);
         Bitmap bMap = loadedbMap.copy(Bitmap.Config.ARGB_8888, true);
         Canvas c = new Canvas(bMap);
         Paint p = new Paint();
@@ -193,8 +266,22 @@ public class UserDefinedTargets extends Activity implements
 
 
         c.rotate(-90,200, 1600);
-        c.drawText("12:10  New York  CLMEME  £213 ",0, 1700, p);
 
+        int x = 1800;
+
+        for(int i = 3 ; i < Alldata.length();i++){
+            StringBuilder sBuilder = new StringBuilder();
+            String priceString = Alldata.getJSONObject(i).getString("Price");
+            String destination = Alldata.getJSONObject(i).getString("Destination");
+            String depatureDateString = Alldata.getJSONObject(i).getString("DepatureDate");
+
+
+            sBuilder.append("   ").append(destination).append("          £").append(priceString).append("         ").append(depatureDateString);
+
+            Log.d("data",sBuilder.toString());
+            c.drawText(sBuilder.toString(),0,x,p);
+            x+=90;
+        }
         c.restore();
 
 

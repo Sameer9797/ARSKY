@@ -79,7 +79,7 @@
         -->
         <!-- Splash Screen Activity -->
         <activity
-            android:name="com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivitySplashScreen"
+            android:name="com.vuforia.samples.VuforiaSamples.ui.ActivityList.HomeScreen"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
             android:screenOrientation="portrait" >
@@ -88,6 +88,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivitySplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.vuforia.samples.VuforiaSamples.ui.ActivityList.ActivityLauncher"
